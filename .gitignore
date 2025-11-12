@@ -1,0 +1,10 @@
+secrets.json
+
+# Python virtual environments
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+env.bak/
+venv.bak/
