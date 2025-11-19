@@ -1,0 +1,10 @@
+# AIR-QUALITY-PIPELINE
+Install Openaq Jupyter
+Grab data for 
+    location id using grid 
+    For number of location id grab air quality data present in open aq s3 
+Install duck db
+    Can view table schema dbever
+    Insert that data into duck db
+    Create presentation view of data daily_air_quality_stats_view, latest_param and air quality view
+Install Poltly and dash
