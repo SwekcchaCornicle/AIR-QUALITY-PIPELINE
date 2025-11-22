@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS raw.air_quality (
+CREATE TABLE IF NOT EXISTS raw.air_quality(
 	location_id BIGINT,
 	sensors_id BIGINT,
 	"location" VARCHAR,
