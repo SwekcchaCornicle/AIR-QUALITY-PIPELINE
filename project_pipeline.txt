@@ -8,3 +8,9 @@ Install duck db
     Insert that data into duck db
     Create presentation view of data daily_air_quality_stats_view, latest_param and air quality view
 Install Poltly and dash
+    that will create dashboard for data
+Database manger file
+    Automate flow 
+    Command to hit according to requirement
+        python database_manager.py --destroy --database-path air_quality.db   
+        python pipeline/database_manager.py --create --database-path air_quality.db --ddl-query-parent-dir ./sql/ddl
